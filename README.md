@@ -1,4 +1,4 @@
-# COMP 3005 - Assignment 3: Student Management
+# COMP 3005 - Assignment 3: Student Management Adam Rebello 
 
 This is a Python application connected to a PostgreSQL database. It lets the user view, add, update and delete student records from the `students` table.
 
@@ -33,10 +33,6 @@ py -m pip install -r requirements.txt
 py app.py
 ```
 
-On computers that do not recognize `py`, use `python` instead.
-
-Enter the password you created for the PostgreSQL `postgres` user during installation. The password is not saved in the code or in the repository.
-
 The app assumes PostgreSQL runs on `localhost`, port `5432`, and the database is named `students_db`. Change these values in `app.py` if your setup is different.
 
 ## Application functions
@@ -50,9 +46,7 @@ The menu allows you to call each function. For dates, enter `YYYY-MM-DD`; leave 
 
 ## Video demonstration
 
-**Video link:** [Add your video link here before submitting]
-
-The video should be no longer than five minutes. Show the initial three student records in pgAdmin, run the Python app, and demonstrate all four functions. After adding, updating, and deleting a student, run the following query in pgAdmin to show the change:
+**Video link:** https://drive.google.com/file/d/192mb5r_e93L3ejg7J-Wzcttge_sI60z0/view?usp=drive_link
 
 ```sql
 SELECT * FROM students ORDER BY student_id;
